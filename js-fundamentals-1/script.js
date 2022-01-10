@@ -110,6 +110,146 @@ const averageAge = (ageJonas + ageSarah) / 2;
 console.log(ageJonas, ageSarah, averageAge);
 */
 
+/*
+const firstName = "Jonas";
+const job = "teacher";
+const birthYear = 1991;
+const year = 2037;
+
+const jonas =
+  "I'm " + firstName + ", a " + (year - birthYear) + "-year old " + job + "!";
+console.log(jonas);
+
+const jonasNew = `I'm ${firstName}, a ${year - birthYear}-year old ${job}!`;
+console.log(jonasNew);
+
+console.log(`Just a regular string...`);
+
+console.log("String with \n\
+multiple \n\
+lines");
+
+console.log(`String with
+multiple
+lines`);
+*/
+
+/*
+const age = 15;
+
+if (age >= 18) {
+  console.log("Sarah can start her driving license 🚗");
+} else {
+  const yearsLeft = 18 - age;
+  console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`);
+}
+
+const birthYear = 2012;
+
+let century;
+if (birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+
+console.log(century);
+*/
+
+/*
+// type conversion
+const inputYear = "1991";
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
+
+console.log(Number("Jonas"));
+console.log(typeof NaN);
+
+console.log(String(23), 23);
+
+// type coercion
+console.log("I am " + 23 + " years old");
+console.log("23" + "10" + 3);
+console.log("23" / "2");
+
+let n = "1" + 1;
+n = n - 1;
+console.log(n);
+*/
+
+//5 falsy values: 0, '', undefined, null, NaN
+
+/*
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean("Jonas"));
+console.log(Boolean({}));
+console.log(Boolean(""));
+
+const money = 100;
+if (money) {
+  console.log("Don't spend it all ;)");
+} else {
+  console.log("You should get a job!");
+}
+
+let height = 0;
+if (height) {
+  console.log("YAY! Height is defined");
+} else {
+  console.log("Height is UNDEFINED");
+}
+*/
+
+/*
+const age = "18";
+if (age === 18) console.log("You just became an adult :D (strict)");
+
+if (age == 18) console.log("You just became an adult :D (loose)");
+
+const favourite = Number(prompt("What's your favourite number?"));
+console.log(favourite);
+
+if (favourite === 23) {
+  console.log("Cool! 23 is an amazing number!");
+} else if (favourite === 7) {
+  console.log("7 is also a cool number");
+} else if (favourite === 9) {
+  console.log("9 is also a cool number");
+} else {
+  console.log("Number is not 23 or 7 or 9");
+}
+
+if (favourite !== 23) console.log("Why not 23?");
+*/
+
+/*
+const hasDriversLicense = true; //A
+const hasGoodVision = true; //B
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
+
+const shouldDrive = hasDriversLicense && hasGoodVision;
+
+// if (shouldDrive) {
+//   console.log("Sarah is able to drive!");
+// } else {
+//   console.log("Someone else should drive...");
+// }
+
+const isTired = false; //C
+console.log(hasDriversLicense && hasGoodVision && !isTired);
+
+if (shouldDrive) {
+  console.log("Sarah is able to drive!");
+} else {
+  console.log("Someone else should drive...");
+}
+*/
+
+/*
 console.log("------------Assignment 1------------");
 
 const country = "The USA";
@@ -144,5 +284,103 @@ console.log(population > 6);
 
 console.log(population < 33);
 
-const description = `${country} is in ${continent} and its ${population} million people speak ${language}`;
+let description = `${country} is in ${continent} and its ${population} million people speak ${language}`;
 console.log(description);
+
+console.log("------------Assignment 5------------");
+
+description = `${country} is in ${continent} and its ${population} million people speak ${language}`;
+console.log(description);
+
+console.log("------------Assignment 6------------");
+
+if (population > 33) {
+  console.log(`${country}'s population is above average`);
+} else {
+  console.log(
+    `${country}'s population is ${33 - population} million below average`
+  );
+}
+
+console.log("------------Assignment 7------------");
+
+if ("9" - "5" === 4) {
+  console.log("Answer: 4 = Correct!");
+}
+if ("19" - "13" + "17" === "617") {
+  console.log(`Answer: '617' = Correct!`);
+}
+if ("19" - "13" + 17 === 23) {
+  console.log("Answer: 23 = Correct!");
+}
+if ("123" < 57 === false) {
+  console.log("Answer: false = Correct!");
+}
+if (5 + 6 + "4" + 9 - 4 - 2 === 1143) {
+  console.log("Answer: 1143 = Correct!");
+}
+
+// console.log("------------Assignment 8------------");
+
+// const numNeighbours = Number(
+//   prompt("How many neighbour countries does your country have?")
+// );
+
+// if (numNeighbours === 1) {
+//   console.log("Only 1 border!");
+// } else if (numNeighbours > 1) {
+//   console.log("More than 1 border!");
+// } else {
+//   console.log("No borders!");
+// }
+
+console.log("------------Assignment 9------------");
+
+if (language === "English" && population < 50 && !isIsland) {
+  console.log(`You should live in ${country}`);
+} else {
+  console.log(`${country} does not meet your criteria :(`);
+}
+*/
+
+/*
+console.log("------------Coding Challenge 1------------");
+
+console.log("Data 1:");
+
+let massMark = 78;
+let heightMark = 1.69;
+
+let massJohn = 92;
+let heightJohn = 1.95;
+
+let BMIMark = massMark / heightMark ** 2;
+let BMIJohn = massJohn / heightJohn ** 2;
+
+let markHigherBMI = BMIMark > BMIJohn;
+
+console.log(BMIMark, BMIJohn, markHigherBMI);
+
+console.log("Data 2:");
+
+massMark = 95;
+heightMark = 1.88;
+
+massJohn = 85;
+heightJohn = 1.76;
+
+BMIMark = massMark / heightMark ** 2;
+BMIJohn = massJohn / heightJohn ** 2;
+
+markHigherBMI = BMIMark > BMIJohn;
+
+console.log(BMIMark, BMIJohn, markHigherBMI);
+
+console.log("------------Coding Challenge 2------------");
+
+if (BMIMark > BMIJohn) {
+  console.log(`Mark's BMI (${BMIMark}) is higher than John's (${BMIJohn})!`);
+} else {
+  console.log(`John's BMI (${BMIJohn}) is higher than Mark's (${BMIMark})!`);
+}
+*/
