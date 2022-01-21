@@ -307,6 +307,27 @@ console.log(`I'm ${2037 - 1991} years old ${me}.`);
 */
 
 /*
+const age = 23;
+
+// age >= 18
+//   ? console.log("I like to drink wine 🍷")
+//   : console.log("I like to drink water 💧");
+
+const drink = age >= 18 ? "wine 🍷" : "water 💧";
+console.log(drink);
+
+let drink2;
+if (age >= 18) {
+  drink2 = "wine 🍷";
+} else {
+  drink2 = "water 💧";
+}
+console.log(drink2);
+
+console.log(`I like to drink ${age >= 18 ? "wine 🍷" : "water 💧"}`);
+*/
+
+/*
 console.log("------------Assignment 1------------");
 
 const country = "The USA";
@@ -391,7 +412,6 @@ if (5 + 6 + "4" + 9 - 4 - 2 === 1143) {
 //   console.log("No borders!");
 // }
 
-
 console.log("------------Assignment 9------------");
 
 if (language === "English" && population < 50 && !isIsland) {
@@ -421,6 +441,11 @@ switch (language) {
   default:
     console.log("Great language too :D");
 }
+
+console.log("------------Assignment 11------------");
+
+const avgPop = population > 33 ? "above" : "below";
+console.log(`${country}'s population is ${avgPop} average.`);
 */
 
 /*
