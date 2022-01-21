@@ -539,4 +539,14 @@ if (dolphinsAverage > koalasAverage && dolphinsAverage >= 100) {
 } else {
   console.log("Nobody wins.");
 }
+
+console.log("------------Coding Challenge 4------------");
+
+const bill = 275;
+const tip = bill * (bill >= 50 && bill <= 300 ? 0.15 : 0.2);
+const total = bill + tip;
+
+console.log(
+  `The bill was ${bill}, the tip was ${tip}, and the total value ${total}.`
+);
 */
