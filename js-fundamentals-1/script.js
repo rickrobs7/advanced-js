@@ -383,4 +383,55 @@ if (BMIMark > BMIJohn) {
 } else {
   console.log(`John's BMI (${BMIJohn}) is higher than Mark's (${BMIMark})!`);
 }
+
+console.log("------------Coding Challenge 3------------");
+
+let dolphinsAverage = (96 + 108 + 89) / 3;
+let koalasAverage = (88 + 91 + 110) / 3;
+
+console.log(dolphinsAverage, koalasAverage);
+
+if (dolphinsAverage > koalasAverage) {
+  console.log("Dolphins win! 🏆");
+} else if (koalasAverage < dolphinsAverage) {
+  console.log("Koalas win! 🏆");
+} else {
+  console.log("It's a draw!");
+}
+
+// Bonus 1
+
+dolphinsAverage = (97 + 112 + 101) / 3;
+koalasAverage = (109 + 95 + 123) / 3;
+
+console.log(dolphinsAverage, koalasAverage);
+
+if (dolphinsAverage > koalasAverage && dolphinsAverage >= 100) {
+  console.log("Dolphins win! 🏆");
+} else if (koalasAverage > dolphinsAverage && koalasAverage >= 100) {
+  console.log("Koalas win! 🏆");
+} else {
+  console.log("It's a draw!");
+}
+
+// Bonus 2
+
+dolphinsAverage = (97 + 112 + 101) / 3;
+koalasAverage = (109 + 95 + 106) / 3;
+
+console.log(dolphinsAverage, koalasAverage);
+
+if (dolphinsAverage > koalasAverage && dolphinsAverage >= 100) {
+  console.log("Dolphins win! 🏆");
+} else if (koalasAverage > dolphinsAverage && koalasAverage >= 100) {
+  console.log("Koalas win! 🏆");
+} else if (
+  dolphinsAverage === koalasAverage &&
+  dolphinsAverage >= 100 &&
+  koalasAverage >= 100
+) {
+  console.log("It's a draw!");
+} else {
+  console.log("Nobody wins.");
+}
 */
