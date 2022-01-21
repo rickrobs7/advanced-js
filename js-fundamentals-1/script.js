@@ -249,6 +249,7 @@ if (shouldDrive) {
 }
 */
 
+/*
 const day = "monday";
 
 switch (day) {
@@ -288,6 +289,22 @@ if (day === "monday") {
 } else {
   console.log("not a valid day!");
 }
+*/
+
+/*
+// statements
+3 + 4;
+1990;
+true && false && !false;
+
+// expression
+if (23 > 10) {
+  const str = "23 is bigger";
+}
+
+const me = "Jonas";
+console.log(`I'm ${2037 - 1991} years old ${me}.`);
+*/
 
 /*
 console.log("------------Assignment 1------------");
@@ -374,12 +391,35 @@ if (5 + 6 + "4" + 9 - 4 - 2 === 1143) {
 //   console.log("No borders!");
 // }
 
+
 console.log("------------Assignment 9------------");
 
 if (language === "English" && population < 50 && !isIsland) {
   console.log(`You should live in ${country}`);
 } else {
   console.log(`${country} does not meet your criteria :(`);
+}
+
+console.log("------------Assignment 10------------");
+
+switch (language) {
+  case "chinese" || "mandarin":
+    console.log("MOST number of native speakers");
+    break;
+  case "spanish":
+    console.log("2nd place in number of native speakers");
+    break;
+  case "english":
+    console.log("3rd place");
+    break;
+  case "hindi":
+    console.log("Number 4");
+    break;
+  case "arabic":
+    console.log("5th most spoken language");
+    break;
+  default:
+    console.log("Great language too :D");
 }
 */
 
